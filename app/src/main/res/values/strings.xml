@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">garbo-android-java</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="add_a_trash_can">Add a Trash Can</string>
 </resources>
