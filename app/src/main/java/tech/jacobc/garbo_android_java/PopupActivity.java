@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.Button;
 
 public class PopupActivity extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,6 +17,17 @@ public class PopupActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(PopupActivity.this, MapsActivity.class));
+            }
+        });
+        Button imageButton = findViewById(R.id.button3);
+        imageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(PopupActivity.this, MapsActivity.class));
+                Intent intent = new Intent();
+                intent.setType("image/*");
+                intent.setAction(Intent.ACTION_GET_CONTENT);
+                startActivityForResult(Intent.createChooser(intent, "Select Picture"), 1);
             }
         });
     }
