@@ -8,14 +8,14 @@
     tools:context=".PopupActivity">
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonadd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="55dp"
         android:layout_marginBottom="79dp"
-        android:text="Add Trashcan"
+        android:text="Add Trash Can"
         android:textColor="#FFFFFF" />
 
     <Button
@@ -28,5 +28,31 @@
         android:layout_marginBottom="79dp"
         android:text="Close"
         android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="326dp"
+        android:layout_marginEnd="138dp"
+        android:text="Insert Image"
+        android:textSize="10sp"
+        app:iconPadding="8dp"
+        app:srcCompat="@android:drawable/ic_menu_upload" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="116dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="Trash Can Name" />
 
 </RelativeLayout>
