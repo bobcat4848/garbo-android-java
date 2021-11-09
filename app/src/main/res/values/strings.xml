@@ -2,4 +2,8 @@
     <string name="app_name">garbo-android-java</string>
     <string name="title_activity_maps">MapsActivity</string>
     <string name="add_a_trash_can">Add a Trash Can</string>
+    <string name="add_trash_can">Add Trash Can</string>
+    <string name="close">Close</string>
+    <string name="insert_image">Insert Image</string>
+    <string name="trash_can_name">Trash Can Name</string>
 </resources>
