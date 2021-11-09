@@ -15,7 +15,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="55dp"
         android:layout_marginBottom="79dp"
-        android:text="Add Trash Can"
+        android:text="@string/add_trash_can"
         android:textColor="#FFFFFF" />
 
     <Button
@@ -26,7 +26,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="55dp"
         android:layout_marginBottom="79dp"
-        android:text="Close"
+        android:text="@string/close"
         android:textColor="#FFFFFF" />
 
     <Button
@@ -38,13 +38,13 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="326dp"
         android:layout_marginEnd="138dp"
-        android:text="Insert Image"
-        android:textSize="10sp"
+        android:text="@string/insert_image"
+        android:textSize="11sp"
         app:iconPadding="8dp"
         app:srcCompat="@android:drawable/ic_menu_upload" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/trashCanNameField"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -53,6 +53,6 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Trash Can Name" />
+        android:text="@string/trash_can_name" />
 
 </RelativeLayout>
