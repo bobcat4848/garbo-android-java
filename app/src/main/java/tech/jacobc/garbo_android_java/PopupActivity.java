@@ -73,7 +73,7 @@ public class PopupActivity extends AppCompatActivity {
                             new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 99);
                     return;
                 }
-                Location locGPS = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
+                Location locGPS = locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
 
                 trashcanData.put("geoloc", new GeoPoint(locGPS.getLatitude(), locGPS.getLongitude()));
 
