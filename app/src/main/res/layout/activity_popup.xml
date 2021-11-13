@@ -4,42 +4,50 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#702196F3"
+    android:background="#363636"
     tools:context=".PopupActivity">
 
     <Button
-        android:id="@+id/buttonadd"
-        android:layout_width="wrap_content"
+        android:id="@+id/button_add"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="55dp"
-        android:layout_marginBottom="79dp"
+        android:layout_marginBottom="78dp"
+        android:background="@drawable/custom_button"
         android:text="@string/add_trash_can"
-        android:textColor="#FFFFFF" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#000" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
+        android:id="@+id/button_close"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="55dp"
         android:layout_marginBottom="79dp"
+        android:background="@drawable/custom_button"
         android:text="@string/close"
-        android:textColor="#FFFFFF" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+
+        android:textColor="#000" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/button_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="326dp"
-        android:layout_marginEnd="138dp"
+        android:layout_marginTop="319dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="364dp"
+        android:background="@drawable/custom_button"
         android:text="@string/insert_image"
-        android:textSize="11sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:iconPadding="8dp"
         app:srcCompat="@android:drawable/ic_menu_upload" />
 
@@ -50,6 +58,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="116dp"
+        android:background="@color/white"
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
