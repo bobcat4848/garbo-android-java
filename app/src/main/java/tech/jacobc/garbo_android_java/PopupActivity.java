@@ -39,7 +39,7 @@ public class PopupActivity extends AppCompatActivity {
 
         EditText trashcanName = findViewById(R.id.trashCanNameField);
 
-        Button mButton = findViewById(R.id.button2);
+        Button mButton = findViewById(R.id.button_close);
 
         Map<String, Object> trashcanData = new HashMap<>();
 
@@ -50,7 +50,7 @@ public class PopupActivity extends AppCompatActivity {
             }
         });
 
-        Button imageButton = findViewById(R.id.button3);
+        Button imageButton = findViewById(R.id.button_image);
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -61,7 +61,7 @@ public class PopupActivity extends AppCompatActivity {
             }
         });
 
-        Button addTrashCan = findViewById(R.id.buttonadd);
+        Button addTrashCan = findViewById(R.id.button_add);
         addTrashCan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

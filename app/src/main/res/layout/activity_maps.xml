@@ -13,14 +13,29 @@
         tools:context=".MapsActivity" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/trash_can_button"
         android:layout_width="151dp"
         android:layout_height="54dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
         android:layout_marginBottom="8dp"
+        android:background="@drawable/custom_button"
         android:text="@string/add_a_trash_can"
-        map:layout_constraintBottom_toBottomOf="parent"
-        map:layout_constraintEnd_toEndOf="parent" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        map:layout_constraintBottom_toBottomOf="@+id/imageView"
+        map:layout_constraintEnd_toEndOf="@+id/imageView"
+        map:layout_constraintTop_toTopOf="parent"
+        map:layout_constraintVertical_bias="0.727" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/garbo_logo_offcenter"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintHorizontal_bias="1.0"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
