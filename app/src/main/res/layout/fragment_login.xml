@@ -22,7 +22,7 @@
         style="@style/TextAppearance.MaterialComponents.Body2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Please enter the below information and click Log In, If you need to register please swipe to the left"
+        android:text="Please enter your email and password."
         android:textSize="17sp"
         android:fontFamily="@font/roboto_regular"
         android:layout_marginStart="25dp"
