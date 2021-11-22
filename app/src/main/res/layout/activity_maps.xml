@@ -29,11 +29,13 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/garbo_logo_offcenter"
-        map:layout_constraintEnd_toEndOf="parent"
-        map:layout_constraintHorizontal_bias="1.0"
+        android:layout_width="412dp"
+        android:layout_height="65dp"
+        android:layout_marginEnd="51dp"
+        android:background="@drawable/new_garbo_logo"
+        map:layout_constraintEnd_toEndOf="@+id/map"
+        map:layout_constraintEnd_toStartOf="@+id/map"
+        map:layout_constraintHorizontal_bias="0.0"
         map:layout_constraintStart_toStartOf="parent"
         map:layout_constraintTop_toTopOf="parent" />
 
