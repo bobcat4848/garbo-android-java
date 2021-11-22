@@ -9,16 +9,15 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/garbo_logo_offcenter" />
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:background="@drawable/new_garbo_logo" />
 
     <Button
         android:id="@+id/button_add"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
         android:background="@drawable/custom_button"
         android:text="@string/add_trash_can"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
@@ -37,7 +36,7 @@
 
     <Button
         android:id="@+id/button_image"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="450dp"

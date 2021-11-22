@@ -17,7 +17,7 @@
                 android:color="@color/black"/>
             <gradient
                 android:startColor="#F00071BD"
-                android:centerColor="@color/white"
+                android:centerColor="#dedede"
                 android:endColor="#F00071BD"/>
             <corners
                 android:radius="25dp"/>
