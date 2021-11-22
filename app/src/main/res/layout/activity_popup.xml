@@ -7,14 +7,18 @@
     android:background="#363636"
     tools:context=".PopupActivity">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/garbo_logo_offcenter" />
+
     <Button
         android:id="@+id/button_add"
-        android:layout_width="120dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="55dp"
-        android:layout_marginBottom="78dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
         android:background="@drawable/custom_button"
         android:text="@string/add_trash_can"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
@@ -22,29 +26,22 @@
 
     <Button
         android:id="@+id/button_close"
-        android:layout_width="120dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="55dp"
-        android:layout_marginBottom="79dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550dp"
         android:background="@drawable/custom_button"
         android:text="@string/close"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-
         android:textColor="#000" />
 
     <Button
         android:id="@+id/button_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="319dp"
-        android:layout_marginEnd="161dp"
-        android:layout_marginBottom="364dp"
+        android:layout_marginTop="450dp"
+        android:width="200dp"
         android:background="@drawable/custom_button"
         android:text="@string/insert_image"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
@@ -55,13 +52,13 @@
         android:id="@+id/trashCanNameField"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="116dp"
+        android:layout_marginTop="250dp"
         android:background="@color/white"
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="@string/trash_can_name" />
+        android:text="@string/trash_can_name"
+        android:textColor="#000000" />
 
 </RelativeLayout>
